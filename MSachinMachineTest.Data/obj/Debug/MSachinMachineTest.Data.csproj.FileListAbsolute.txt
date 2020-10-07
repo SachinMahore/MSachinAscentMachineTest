@@ -1,0 +1,10 @@
+F:\MSachinMachineTest\MSachinMachineTest.Data\bin\Debug\MSachinMachineTest.Data.dll.config
+F:\MSachinMachineTest\MSachinMachineTest.Data\bin\Debug\MSachinMachineTest.Data.dll
+F:\MSachinMachineTest\MSachinMachineTest.Data\bin\Debug\MSachinMachineTest.Data.pdb
+F:\MSachinMachineTest\MSachinMachineTest.Data\bin\Debug\EntityFramework.dll
+F:\MSachinMachineTest\MSachinMachineTest.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\MSachinMachineTest\MSachinMachineTest.Data\bin\Debug\EntityFramework.xml
+F:\MSachinMachineTest\MSachinMachineTest.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\MSachinMachineTest\MSachinMachineTest.Data\obj\Debug\MSachinMachineTest.Data.csprojResolveAssemblyReference.cache
+F:\MSachinMachineTest\MSachinMachineTest.Data\obj\Debug\MSachinMachineTest.Data.dll
+F:\MSachinMachineTest\MSachinMachineTest.Data\obj\Debug\MSachinMachineTest.Data.pdb

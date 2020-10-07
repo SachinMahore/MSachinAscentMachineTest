@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Content/jquery-3.5.1.min.js"></script>
+<script src="~/Content/Pages/Employee.js"></script>
+<div class="jumbotron">
+    <h1>User List <button id="btnCreateEmp" type="button" class="btn btn-info pull-right" onclick="createEmployee()"><i class="glyphicon-plus"></i> Add Employee</button>
+</h1>
+  </div>
+
+<div class="row">
+    <div class="col-md-6">
+        <label class="control-label">Select Field</label>
+        <div class="form-group">
+            <select id="ddlField" name="ddlField" class="form-control">
+                <option value="EmployeeName">Employee Name</option>
+                <option value="City">City</option>
+            </select>
+        </div>
+            <div class="form-group">
+                <label class="control-label">Enter Crieria</label>
+                <input type="text" id="txtCriteria" name="txtCriteria" class="form-control" />          
+            </div>
+        <div class="form-group">
+            <button id="btnAddEmp" type="button" class="btn btn-primary" onclick="addFilterCriteria()"><i class="glyphicon-plus"></i> Add</button>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="input-group">
+            <label class="control-label">Search Criteria</label>
+            <div class="input-group-addon padding-0 no-borders">
+                <button class="btn btn-primary form-control-small" type="button" onclick="removeFilterAll()"><i class="fa fa-trash"></i>&nbsp;&nbsp;Remove All</button>
+            </div>
+        </div>
+        <div id="divFilterCriteria" style="border:solid 1px #1ab394;padding:2px!important;height:100px!important;overflow-y:auto;overflow-x:hidden;">
+        </div>
+        <div class="form-group">
+            <button id="btnSearchEmp" type="button" class="btn btn-success" onclick="getEmployeeList(1)"><i class="glyphicon-filter glyphicon"></i> Search</button>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <hr /> 
+   <div class="col-md-12">
+       Rows
+       <select id="ddlRow" name="ddlRow">
+           <option value="3">3</option>
+           <option value="6">6</option>
+       </select>
+        <div class="form-group">          
+            <table class="table table-bordered" id="tblEmployee">
+                <thead>
+                    <tr>
+                        <th> Employee ID</th>
+                        <th> Employee Name</th>
+                        <th> City</th>                       
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</div>
